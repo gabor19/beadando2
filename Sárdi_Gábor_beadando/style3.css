@@ -1,0 +1,170 @@
+body{
+    background-size:cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 800px;
+    margin:0 auto;
+}
+nav ul{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 0; 
+}
+nav ul li {
+    display: inline-block;
+    width: 150px;
+    font-size: 30px;
+    color: white;
+    margin:0 auto;
+    text-align: center;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.hobbimain nav ul li a:hover{
+    font-size: 34px;
+    color: orange;
+}
+.hobbicim,.hobbi h1{
+    color: orange;
+}
+.hobbi{
+    max-width: 350px;
+    min-width: 300px;
+    background-color: rgba(35, 38, 37, 0.70);
+    border-radius: 10px; 
+    color: white;
+    margin: 5%;
+}
+
+.magamrol nav ul li a:hover{
+    font-size: 34px;
+    color: beige;
+}
+.magamrol p{
+    color: white;
+    font-size: 25px;
+}
+.magamrolcim 
+{
+    color:rgb(245, 245, 220);
+}
+.magamrol_tartalom{
+    grid-template-columns: 90%;
+    width: 600px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.575);
+    border-radius: 10px;
+}
+.magamrol_tartalom div{
+    margin: 30px 0 50px 50px;
+    
+}
+.munkaim nav ul li a:hover{
+    font-size: 34px;
+    color: rgb(251, 188, 138);;
+}
+.munkaimcim{
+    color: rgb(251, 188, 138);
+}
+.munka, img:hover{
+    width: 92%;
+}
+.munka{
+    margin: 100px 0 0 300px;
+    justify-content: center;
+    margin: auto;
+    max-width: 1400px;
+}
+.munka h1{
+    color: rgb(251, 188, 138);
+}
+main{
+    display: grid;
+    margin: auto;
+    max-width: 1400px;
+}
+section{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: none;
+}
+h1{
+    text-align: center;
+    margin: 10px;
+}
+p{
+    margin:10px;
+    text-align: justify;
+    font-size: 20px;
+}
+div img{
+    margin-left: 5%;
+    width: 90%;
+    float:inline-start;
+    border-radius: 10px;
+}
+table tr td{
+    padding: 40px
+}
+footer .icon{
+    width: 40px;
+}
+footer ul li{
+    display: inline-block;
+    margin: 20px;
+}
+video{
+    width: 1000px;
+}
+.video{
+    margin: auto;
+    max-width: 1400px;
+}
+@media screen and (max-width: 915px) {
+    section{
+        margin: auto;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: none;
+    }   
+    .hobbi{
+        max-width: 700px;
+        min-width: 300px;
+        background-color: rgba(35, 38, 37, 0.70);
+        border-radius: 10px; 
+        color: white;
+        margin: 5%;
+    }
+    nav{
+        width: 300px;
+        margin:0 auto;
+        justify-content: center;
+    }
+    nav ul{
+        display: grid;
+        grid-template-columns: 25%;
+        padding: 0; 
+        text-align: center;
+        padding-left: 25%;
+    }
+    nav ul li {
+        display: inline-block;
+        width: 150px;
+        font-size: 30px;
+        color: white;
+        margin:0 auto;
+        justify-content: center;
+    }
+    video{
+        max-width: 600px;
+    }
+}
+
+
